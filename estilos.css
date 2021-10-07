@@ -1,0 +1,283 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 18px;
+	color: #834E19;
+	font-family: 'Courgette', cursive;
+}
+
+body { 
+	background-color: #FFFFFF;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Inter', sans-serif; 
+	background-image: url("chika-saito-img-1019.jpg");
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+header {
+	height: 145px;
+	background-color: #f6a26;
+	background: linear-gradient(to right, #f6a261, #ff7f00);
+	border-bottom: solid thick #f6883d;
+	border-left-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+
+}	
+
+main {
+	height: 900%;
+	background-color: #F9F5EC;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+	max-width: 1000px;
+	border: 10px #f6a261;
+	
+}
+
+#contenedor{
+	width: 100%;
+	margin-top: 20px;
+}
+
+section {
+	width: 100%;
+	height: 2%;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+footer {
+	height: 145px;
+	background: linear-gradient(to right, #f6a261, #ff7f00);
+	border-top: solid thick #f6883d;
+	border-left-width: 100%;
+	max-width: 1000px;
+	
+}
+
+.logo { 
+	padding: 10px;
+	height: 110px;
+	float: right;
+	padding-right: 70px;
+	padding-bottom: 20px
+		
+}
+
+.columnas { 
+	padding: 10px;
+	padding-top: 15px;
+	column-count: 2;
+	column-gap: 280px;
+	height: 1px;
+	padding-bottom: 2px;
+		
+}
+
+#titulo { 
+	padding: 40px;
+		
+}
+
+#contenedor dos { 
+	text-align: center;
+}
+
+
+.gideon { 
+	width: 188px;
+	text-align: center;
+}
+
+.paw { 
+	width: 30px;
+	float: left;
+	padding: 1px
+	
+}
+
+.img { 
+	text-align: center;
+
+	
+}
+
+.ima { 
+	text-align: center;
+	border-radius: 45px;
+	border: thick solid #F7BD40
+
+	
+}
+
+p { 
+	text-align: center;
+	border-radius: 100px;
+	
+}
+
+.texto { 
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px
+}
+
+o { 
+	float: right;
+	padding-right: 45px
+	
+}
+
+a { 
+	float: left;
+	padding-left: 200px;
+	padding-top: 50px;
+	color: #FFE3AE
+	
+}
+
+.link { 
+	color: #834E19;
+	padding-left: 115px
+	
+	
+}
+
+.divisor { 
+	padding-top: 40px
+	
+}
+
+.divisordos { 
+	padding-top: 10px
+	
+}
+
+.aparte { 
+	background: linear-gradient(to bottom, #FFB730, #FFA11D);
+	padding: 10px;
+	padding-top: 15px;
+	height: 510px;
+	border-radius: 20%;
+	filter: opacity(95%)
+		
+}
+
+h2 { 
+	padding-left: 20px;
+	background-color: #FFE3AE;
+	text-align: center;
+	color: #834E19;
+	font-size: 24px;
+	background-image: url("EthicalLiveAntelopegroundsquirrel-size_restricted.gif");
+	background-size: cover
+	
+}
+
+h { 
+	padding: 20px;
+	text-align: center
+	
+}
+
+.gideongrey { 
+	width: 500px;
+	padding-right: 10px;
+	float: right;
+	padding-bottom: 20px 
+}
+
+.titulo { 
+	background: linear-gradient(to right, #FFB730, #FFA11D);
+	color: white;
+	padding-right: 30px;
+	border-top-left-radius: 80px;
+	border-bottom-right-radius: 80px;
+}
+
+.img2 { 
+	border-radius: 45px;
+	border: thick solid #F7BD40;
+	
+}
+		
+.img3 { 
+	border-radius: 45px;
+	border: thick solid #F7BD40;
+	
+}
+		
+.img4 {
+	border-radius: 45px;
+	border: thick solid #F7BD40;
+}
+
+.imguno { 
+	display: inline-block;
+	width: 100%;
+	padding-right: 15%
+}
+
+.contenedor { 
+	position: relative; 
+	display: inline-block; 
+	vertical-align: top;
+	overflow: hidden;
+	padding: 1px;
+	padding-left: 6%;
+	padding-top: 30px;
+	padding-bottom: 30px
+} 
+
+.contenedorcol { 
+	position: relative; 
+	padding-left: 6%;
+	padding-top: 5px;
+	padding-bottom: 5px
+	
+} 
+
+.pawdos { 
+	width: 30px;
+	float: left;
+	padding: 1px;
+	padding-top: 20px
+	
+}
+
+
+@media ( max-width: 768px ) { 
+.contenedor { display: block; padding-right: 22px }
+.juntos { display: block }
+.columnas { columns: auto; }
+.gideon { display: none }
+.separado { padding-top: 65%}
+.juntitos { padding-top: 63%}
+
+}
+
+
+@media ( max-width: 480px ) { 
+.aparte { display: none }
+.divisordos { display: none }
+.divisor { display: none }
+.contenedor { display: block; padding-right: 22px }
+.gideon { display: none }
+p { display: block }
+.gideongrey { display: flex; padding-right: 50%; }
+.columnas { columns: auto; }
+.juntos { display: block }
+.divisor { width: 95% }
+.separado { padding-top: 132%}
+.juntitos { padding-top: 105%}	
+}
